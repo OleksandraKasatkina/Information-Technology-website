@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Artificial Intelligence",
+        "application": "Chatbots",
+        "popularity": 5
+    },
+    {
+        "name": "Cloud Computing",
+        "application": "Storage",
+        "popularity": 5
+    },
+    {
+        "name": "Cybersecurity",
+        "application": "Data Protection",
+        "popularity": 4
+    }
+]

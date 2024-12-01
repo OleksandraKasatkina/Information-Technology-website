@@ -1,0 +1,17 @@
+<technologies>
+    <technology type="AI">
+        <name>Artificial Intelligence</name>
+        <application>Chatbots</application>
+        <application>Autonomous Vehicles</application>
+    </technology>
+    <technology type="Cloud">
+        <name>Cloud Computing</name>
+        <application>Storage</application>
+        <application>Virtualization</application>
+    </technology>
+    <technology type="Cybersecurity">
+        <name>Cybersecurity</name>
+        <application>Data Protection</application>
+        <application>Firewalls</application>
+    </technology>
+</technologies>
