@@ -1,0 +1,206 @@
+/* General Styles for All Pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2a5d84;
+}
+
+h2 {
+    font-size: 2em;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #440279;
+    text-decoration: underline;
+}
+
+/* Home Page Styles */
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    gap: 15px;
+}
+
+.column {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .column {
+        width: 90%;
+    }
+}
+
+/* Data Page Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #d9edf7;
+    cursor: pointer;
+}
+
+/* Images Page Styles */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1cm;
+    margin: 20px;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-gallery img:hover {
+    border-color: #0066cc;
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+/* Form Page Styles */
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e9f3fc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], 
+form input[type="email"],
+form select, 
+form textarea {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #cce2f2;
+}
+
+form button {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button{
+    background-color: #4caf50;
+    color: white;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+/* Author Page Styles */
+ol {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fefefe;
+}
+
+ol li {
+    font-weight: bold;
+    margin: 10px auto;
+    width: 95%
+}
+
+.author-list ol {
+    list-style-type: upper-alpha; /* Ensures A, B, C numbering */
+}
